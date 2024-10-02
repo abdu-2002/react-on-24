@@ -12,10 +12,10 @@ function createData(id, name, department, location) {
 }
 
 const rows = [
-  createData(1,'aju','develper','tvm'),
-  createData(2,'raju','decoder','kochi'),
-  createData(3,'mubi','developer','kovalam'),
-  createData(4,'bablu','analyser','idukki')
+  createData(1,'Aju','Developer','Tvm'),
+  createData(2,'Raju','Decoder','Kochi'),
+  createData(3,'Mubi','Developer','Kovalam'),
+  createData(4,'Bablu','Analyser','Idukki')
  
 ];
 
@@ -25,10 +25,10 @@ export default function DenseTable() {
       <Table sx={{ minWidth: 650 }} size="small" aria-label="a dense table">
         <TableHead>
           <TableRow>
-            <TableCell>employee id</TableCell>
-            <TableCell align="right">name</TableCell>
-            <TableCell align="right">department</TableCell>
-            <TableCell align="right">location</TableCell>
+            <TableCell>Employee id</TableCell>
+            <TableCell align="right">Name</TableCell>
+            <TableCell align="right">Department</TableCell>
+            <TableCell align="right">Location</TableCell>
           
           </TableRow>
         </TableHead>
